@@ -1,59 +1,62 @@
-h1,h2,p,li,span{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
-}
-
-h2{
-    color:#005677;
-    font-size: 20px;
+/* estilo header*/
+.header-batman {
+    background-color: #e5e5e5;
+  }
+  .titulo-principal {
+    text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
-    background-color: #C4C4C4;
-    width: 1041px;
-}
-
-
-
-.fondo-header{
-    background-color:#E5E5E5;
-    height: 189px;
-    width: 1440px;
-}
-
-.cinta-de-header{
-    background-color: #C4C4C4;
-    height: 60px;
-    top: 188px;
-    width: 1440px;
-}
-
-h1{
-    color:#005677;
+    font-family: "Times New Roman", Times, serif;
     font-size: 35px;
-    font-weight: 700;
-    letter-spacing: 0.4em;
-    line-height: 29.64px;
-    text-align: center;
+    color: #005677;
+    letter-spacing: 10px;
+    font-weight: bold;
+    background-color: #c4c4c4;
+  }
+  
+  /* ESTILO SECTIONS*/
+  h2 {
+    display: block;
     text-transform: uppercase;
-}
-
-.nombre-item{
-    font-weight: 700;
-    font-style: italic;
-}
-
-.banda-footer{
-    background: #005677;
-    width: 1440px;
-    height: 37px;
-    left: 0px;
-    top: 987px;
-}
-
-.span-footer{
-    color: #FFFFFF;
+    font-family: "Times New Roman", Times, serif;
     font-size: 20px;
-    font-weight: 700;
+    color: #005677;
+    letter-spacing: 10px;
+    font-weight: bold;
+    background-color: #c4c4c4;
+  }
+  section {
+    line-height: 16, 68px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-left: 8em;
+    margin-right: 8em;
+  }
+  li,
+  dt,
+  dd {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+  }
+  .nombrecompleto,
+  .fechanacimiento,
+  .lugarnacimiento {
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+  }
+  dd {
+    text-indent: 45px;
+  }
+  li {
+    line-height: 2em;
+  }
+  /* FOOTER*/
+  footer {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
     text-align: center;
-    text-transform: uppercase;
-}
+    color: aliceblue;
+    background-color: #005677;
+    font-weight: bold;
+  }
